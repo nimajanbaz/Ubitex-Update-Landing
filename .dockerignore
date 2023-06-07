@@ -1,0 +1,7 @@
+.vscode
+.git
+build
+node_modules
+LICENSE
+README.md
+yarn-error.log
