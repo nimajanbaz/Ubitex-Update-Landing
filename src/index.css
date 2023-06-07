@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white dark:bg-[#04162d] text-gray-800 dark:text-gray-300
+}
+
+@font-face {
+  font-family: "IRANYekan-Ubitex";
+  src: url('./assets/fonts/IRANYekanMedium.woff');
+}
+
+@font-face {
+  font-family: "IRANYekanExteraBold-Ubitex";
+  src: url('./assets/fonts/IRANYekanWebExtraBold.woff');
+}
+
+.rtl-grid {
+  direction: rtl;
+}
